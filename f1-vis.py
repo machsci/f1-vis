@@ -86,7 +86,7 @@ def plot_data(theme_name,data,segment_name,metrics_dict):
         + annotate("text", x=.75, y=10.5, size=12, va='bottom', ha='left', lineheight=1, color=font_color, fontweight=600, label='F1: '+segment_name.upper())
         + annotate("text", x=.75, y=9.5, size=10, va='bottom', ha='left', lineheight=1, color=font_color, label='VISUAL')
         + annotate("text", x=11.5, y=9.5, size=10, va='bottom', ha='left', lineheight=1, color=font_color, label='METRICS')
-        + annotate("text", x=21.5, y=9.5, size=10, va='bottom', ha='left', lineheight=1, color=font_color, label='LEGEND')
+        + annotate("text", x=22, y=9.5, size=10, va='bottom', ha='left', lineheight=1, color=font_color, label='LEGEND')
 
         # Metrics
         + annotate("text", x=10+padding, y=9, size=8, va='top', ha='left', lineheight=1.5, color=font_color, label=metrics_dict.get('precision'))
@@ -101,8 +101,8 @@ def plot_data(theme_name,data,segment_name,metrics_dict):
         + annotate("text", x=25, y=8, size=8, va='top', ha='center', lineheight=1.5, color=font_color, label='NO')
         + annotate("text", x=23, y=7, size=8, va='top', ha='center', lineheight=1.5, color=font_color, label='YES')
         + annotate("text", x=23, y=6, size=8, va='top', ha='center', lineheight=1.5, color=font_color, label='NO')
-        + annotate("text", x=22, y=6.5, size=8, va='center', ha='center', lineheight=1.5, color=font_color, angle = 90, label='REALITY')
-        + annotate("text", x=24.5, y=8.5, size=8, va='center', ha='center', lineheight=1.5, color=font_color, label='PREDICTION')
+        + annotate("text", x=22, y=6.5, size=7, va='center', ha='center', lineheight=1.5, color=font_color, angle = 90, label='REALITY')
+        + annotate("text", x=24.5, y=8.5, size=7, va='center', ha='center', lineheight=1.5, color=font_color, label='PREDICTION')
         )
 
     # Plot the plot
@@ -124,4 +124,4 @@ input_data_dict = {
 input_data = pd.DataFrame(input_data_dict).transpose().reset_index(drop=True)
 
 # Create visuals. Theme options are 'light' and 'dark'
-f1vis(input_data,'light') 
+f1vis(input_data,'dark')
