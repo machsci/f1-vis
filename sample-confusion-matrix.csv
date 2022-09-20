@@ -1,0 +1,4 @@
+segment,true positive,false positive,true negative,false negative
+all,0.56,0.12,0.22,0.1
+recent,0.52,0.13,0.24,0.11
+active,0.59,0.1,0.23,0.08
