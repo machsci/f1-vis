@@ -25,3 +25,10 @@ f1-vis can produce multiple visualizations at once. Input each as a separate row
 
 ### Theme
 Set the theme to either ```light``` (good for printing) or ```dark``` (nice for slides -- background is #3c3c3c).
+
+## Example Outputs
+### Light Theme
+![f1vis-light](https://user-images.githubusercontent.com/83668288/191360647-7883d328-5e51-434b-8a80-ccdf941ca568.png)
+
+### Dark Theme
+![f1vis-dark](https://user-images.githubusercontent.com/83668288/191360678-ca40b319-d7ee-4e7c-aee7-3f33ef965e8f.png)
