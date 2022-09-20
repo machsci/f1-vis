@@ -18,7 +18,7 @@ f1vis(df=input_data,theme_name='dark')
 f1-vis can produce multiple visualizations at once. Input each as a separate row in the .csv or dataframe:
 
 | segment | true positive | false positive | true negative | false negative | 
-| ------------- | ------------- | ------------- | ------------- | | ------------- |
+| ------- | ------------- | -------------- | ------------- | -------------- |
 | all | 0.56 | 0.12 | 0.22 | 0.1 | 
 | recent | 0.52 | 0.13 | 0.24 | 0.11 | 
 | active | 0.59 | 0.1 | 0.23 | 0.08 | 
