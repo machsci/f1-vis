@@ -124,4 +124,4 @@ input_data_dict = {
 input_data = pd.DataFrame(input_data_dict).transpose().reset_index(drop=True)
 
 # Create visuals. Theme options are 'light' and 'dark'
-f1vis(input_data,'dark')
+f1vis(df=input_data,theme_name='dark')
