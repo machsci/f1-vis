@@ -15,7 +15,7 @@ f1vis(df=input_data,theme_name='dark')
 ```
 
 ### Dataframe Structure
-f1-vis can produce multiple visualizations at once by inputting each as a separate row in the .csv or dataframe. Example below and included as ```sample -confusion-matrix.csv```:
+f1-vis can produce multiple visualizations at once by inputting each as a separate row in the .csv or dataframe. Example below and included as ```sample-confusion-matrix.csv```:
 
 | segment | true positive | false positive | true negative | false negative | 
 | ------- | ------------- | -------------- | ------------- | -------------- |
