@@ -8,10 +8,10 @@ pip install plotnine
 ```
 
 ## Instructions
-Update the f1vis function with a dataframe and theme.
+Update the f1vis function with a dataframe and theme name.
 
 ```
-f1vis(input_data,'dark')
+f1vis(df=input_data,theme_name='dark')
 ```
 
 ### Dataframe Structure
